@@ -8,6 +8,7 @@ function displayContent() {
     console.log(content);
 
     if (localStorage.getItem('language') === "da") {
+        document.querySelector("header > a > div > p").textContent = content[0].forside.title;
         document.querySelector("main > section > article > p:nth-child(2)").textContent = content[0].colorpalette.type;
         document.querySelector("main > section > article > p:nth-child(3)").textContent = content[0].colorpalette.long_desc[0];
         document.querySelector("main > section > article > p:nth-child(4)").textContent = content[0].colorpalette.long_desc[1];
@@ -15,6 +16,7 @@ function displayContent() {
         document.querySelector("#colorpalette > main > section > article > p:nth-child(11)").textContent = content[0].colorpalette.disclaimer;
 
     } else if (localStorage.getItem('language') === "en") {
+        document.querySelector("header > a > div > p").textContent = content[0].forside.title_en;
         document.querySelector("main > section > article > p:nth-child(2)").textContent = content[0].colorpalette.type_en;
         document.querySelector("main > section > article > p:nth-child(3)").textContent = content[0].colorpalette.long_desc_en[0];
         document.querySelector("main > section > article > p:nth-child(4)").textContent = content[0].colorpalette.long_desc_en[1];

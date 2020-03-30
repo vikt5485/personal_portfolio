@@ -8,10 +8,6 @@ let content = [];
 function start() {
     fetchJOSN();
     checkLanguage();
-    // slider();
-    document.querySelector("#scroll_ani").addEventListener("animationend", () => {
-        document.querySelector("#scroller").style.opacity = "0";
-    })
 }
 
 async function fetchJOSN() {
@@ -38,6 +34,8 @@ function displayContent() {
     console.log(localStorage.getItem('language'));
 
     if (localStorage.getItem('language') === 'da') {
+        document.querySelector("header > a > div > p").textContent = content[0].forside.title;
+
         document.querySelector("nav > a:nth-child(1)").textContent = content[0].forside.links[0];
         document.querySelector("nav > a:nth-child(2)").textContent = content[0].forside.links[1];
         document.querySelector("nav > a:nth-child(3)").textContent = content[0].forside.links[2];
@@ -56,7 +54,10 @@ function displayContent() {
         document.querySelector("#contact > h1").textContent = content[0].forside.contact[0];
         document.querySelector("#contact > span:nth-child(4)").innerHTML = content[0].forside.contact[1];
 
+
     } else if (localStorage.getItem('language') === 'en') {
+        document.querySelector("header > a > div > p").textContent = content[0].forside.title_en;
+
         document.querySelector("nav > a:nth-child(1)").textContent = content[0].forside.links_en[0];
         document.querySelector("nav > a:nth-child(2)").textContent = content[0].forside.links_en[1];
         document.querySelector("nav > a:nth-child(3)").textContent = content[0].forside.links_en[2];
@@ -74,6 +75,7 @@ function displayContent() {
 
         document.querySelector("#contact > h1").textContent = content[0].forside.contact_en[0];
         document.querySelector("#contact > span:nth-child(4)").innerHTML = content[0].forside.contact_en[1];
+
     }
 }
 

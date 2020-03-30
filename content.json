@@ -1,10 +1,12 @@
 [{
     "forside": {
+        "title": "multimediedesigner | portfolio",
         "links": ["projekter", "om mig", "kontakt"],
         "project_title": "Projekter",
         "about_title": "Hvem er jeg?",
         "about": ["Som studerende på multimediedesigner uddannelsen, har jeg udviklet en passion for frontend desing og udvikling.", "Arbejdet med kundens/klientens krav og ønsker, udviklingen af brugervenlige løsninger, og tests på slutbrugeren, er dele af hvad jeg har lært på uddannelsen, men min klare ambition og passion ligger i kodning. Jeg elsker en 'clean code', hader konsol fejl og så elsker jeg at lære 🤓", "Jeg har erfaring med:"],
         "contact": ["Kontakt", "Ring: <a href='tel:+4542446966'>+45 42 44 69 66</a> 📱"],
+        "title_en": "multimedia designer | portfolio",
         "links_en": ["projects", "about", "contact"],
         "project_title_en": "Projects",
         "about_title_en": "Who am i?",
