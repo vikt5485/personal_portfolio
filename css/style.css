@@ -157,55 +157,10 @@ body header nav a:nth-child(4) {
 }
 
 body header nav a:hover {
-  color: transparent;
-  -webkit-animation: hvr_color_change_trans;
-          animation: hvr_color_change_trans;
-  -webkit-animation-duration: 3s;
-          animation-duration: 3s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-direction: alternate;
-          animation-direction: alternate;
-}
-
-@-webkit-keyframes hvr_color_change {
-  0% {
-    color: orange;
-  }
-  100% {
-    color: #FFBF59;
-  }
-}
-
-@keyframes hvr_color_change {
-  0% {
-    color: orange;
-  }
-  100% {
-    color: #FFBF59;
-  }
-}
-
-@-webkit-keyframes hvr_color_change_trans {
-  0% {
-    -webkit-text-stroke: 1px orange;
-    text-stroke: 1px orange;
-  }
-  100% {
-    -webkit-text-stroke: 1px #FFBF59;
-    text-stroke: 1px #FFBF59;
-  }
-}
-
-@keyframes hvr_color_change_trans {
-  0% {
-    -webkit-text-stroke: 1px orange;
-    text-stroke: 1px orange;
-  }
-  100% {
-    -webkit-text-stroke: 1px #FFBF59;
-    text-stroke: 1px #FFBF59;
-  }
+  color: orange;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: orange;
 }
 
 @media (min-width: 800px) {

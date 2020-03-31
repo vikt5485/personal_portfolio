@@ -176,34 +176,10 @@ body {
             }
 
             a:hover {
-                color: transparent;
-
-                animation: hvr_color_change_trans;
-                animation-duration: 3s;
-                animation-iteration-count: infinite;
-                animation-direction: alternate;
-            }
-
-            @keyframes hvr_color_change {
-                0% {
-                    color: $nav_3;
-                }
-
-                100% {
-                    color: $nav_4;
-                }
-            }
-
-            @keyframes hvr_color_change_trans {
-                0% {
-                    -webkit-text-stroke: 1px $nav_3;
-                    text-stroke: 1px $nav_3;
-                }
-
-                100% {
-                    -webkit-text-stroke: 1px $nav_4;
-                    text-stroke: 1px $nav_4;
-                }
+                color: $nav_3;
+                -webkit-text-fill-color: transparent;
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: $nav_3;
             }
 
             @include desktop {
