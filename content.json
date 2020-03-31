@@ -4,14 +4,16 @@
         "links": ["projekter", "om mig", "kontakt"],
         "project_title": "Projekter",
         "about_title": "Hvem er jeg?",
-        "about": ["Som studerende på multimediedesigner uddannelsen, har jeg udviklet en passion for frontend desing og udvikling.", "Arbejdet med kundens/klientens krav og ønsker, udviklingen af brugervenlige løsninger, og tests på slutbrugeren, er dele af hvad jeg har lært på uddannelsen, men min klare ambition og passion ligger i kodning. Jeg elsker en 'clean code', hader konsol fejl og så elsker jeg at lære 🤓", "Jeg har erfaring med:"],
+        "about": ["Som studerende på multimediedesigner uddannelsen, har jeg udviklet en passion for frontend desing og udvikling.", "Arbejdet med kundens/klientens krav og ønsker, udviklingen af brugervenlige løsninger, og tests på slutbrugeren, er dele af hvad jeg har lært på uddannelsen, men min klare ambition og passion ligger i kodning. Jeg elsker en clean code, at debugge konsol fejl og så elsker jeg at lære.", "Jeg har erfaring med:"],
         "contact": ["Kontakt", "Ring: <a href='tel:+4542446966'>+45 42 44 69 66</a> 📱"],
+        "link": "Se fuldt CV her",
         "title_en": "multimedia designer | portfolio",
         "links_en": ["projects", "about", "contact"],
         "project_title_en": "Projects",
         "about_title_en": "Who am i?",
-        "about_en": ["Studying multimedia design at KEA, I've gained knowledge and a passion for frontend design and developing.", "Working with clients' needs and wants, developing user friendly solutions, and testing on the end user, are parts of what I’ve learned, but my true passion is in coding. I enjoy a clean code, hate console errors, and I love learning 🤓", "I have experience with:"],
-        "contact_en": ["Contact", "Call: <a href='tel:+4542446966'>+45 42 44 69 66</a> 📱"]
+        "about_en": ["Studying multimedia design at KEA, I've gained knowledge and a passion for frontend design and developing.", "Working with clients' needs and wants, developing user friendly solutions, and testing on the end user, are parts of what I’ve learned, but my true passion is in coding. I enjoy a clean code, to debug console errors, and I love learning.", "I have experience with:"],
+        "contact_en": ["Contact", "Call: <a href='tel:+4542446966'>+45 42 44 69 66</a> 📱"],
+        "link_en": "See full CV here"
     },
     "lisa": {
         "type": "Gruppeprojekt",

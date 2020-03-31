@@ -61,7 +61,7 @@ body span {
 
 body header {
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   position: relative;
   top: 0;
   display: -webkit-box;
@@ -334,7 +334,7 @@ body main #projects h1 {
   width: 0px;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 500px) {
   body main #projects h1 {
     left: 100px;
   }
@@ -488,7 +488,13 @@ body main #projects .project_4 .overlay .overlay_bg {
 }
 
 body main #projects a:first-of-type {
-  margin-left: 100px;
+  margin-left: 30px;
+}
+
+@media (min-width: 500px) {
+  body main #projects a:first-of-type {
+    margin-left: 100px;
+  }
 }
 
 body main #me {
@@ -518,6 +524,27 @@ body main #about #about_wrap div > p:nth-child(4) {
 
 body main #about ul {
   margin-top: 5px;
+  margin-bottom: 16px;
+}
+
+body main #about .button {
+  padding: 20px 30px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2rem;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+  background-color: #02684C;
+}
+
+body main #about .button:hover {
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+  color: white;
 }
 
 body main #about img {
@@ -578,11 +605,10 @@ body #projects::-webkit-scrollbar-thumb {
 }
 
 body #projects::-webkit-scrollbar {
-  height: 5px;
+  height: 10px;
 }
 
 .project_body {
-  width: 100vw;
   min-height: calc(100vh - 120px);
   height: 100%;
 }
@@ -604,7 +630,6 @@ body #projects::-webkit-scrollbar {
   max-width: 600px;
   margin: 0 auto;
   margin-top: 150px;
-  overflow: scroll;
 }
 
 .project_body .project_wrap h1 {
@@ -683,7 +708,7 @@ body #projects::-webkit-scrollbar {
 }
 
 .project_body .project_wrap ul {
-  margin-top: 0;
+  margin-top: 5px;
   margin-bottom: 30px;
 }
 

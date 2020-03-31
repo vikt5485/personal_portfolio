@@ -50,6 +50,7 @@ function displayContent() {
         document.querySelector("#about_wrap > div > p:nth-child(2)").textContent = content[0].forside.about[0];
         document.querySelector("#about_wrap > div > p:nth-child(3)").textContent = content[0].forside.about[1];
         document.querySelector("#about_wrap > div > p:nth-child(4)").textContent = content[0].forside.about[2];
+        document.querySelector("#about_wrap > div > a").textContent = content[0].forside.link;
 
         document.querySelector("#contact > h1").textContent = content[0].forside.contact[0];
         document.querySelector("#contact > span:nth-child(4)").innerHTML = content[0].forside.contact[1];
@@ -72,6 +73,7 @@ function displayContent() {
         document.querySelector("#about_wrap > div > p:nth-child(2)").textContent = content[0].forside.about_en[0];
         document.querySelector("#about_wrap > div > p:nth-child(3)").textContent = content[0].forside.about_en[1];
         document.querySelector("#about_wrap > div > p:nth-child(4)").textContent = content[0].forside.about_en[2];
+        document.querySelector("#about_wrap > div > a").textContent = content[0].forside.link_en;
 
         document.querySelector("#contact > h1").textContent = content[0].forside.contact_en[0];
         document.querySelector("#contact > span:nth-child(4)").innerHTML = content[0].forside.contact_en[1];
