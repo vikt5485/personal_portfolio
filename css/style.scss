@@ -268,6 +268,10 @@ body {
 
         .da {
             #switcher {
+                #ball {
+                    transform: translateX(0px);
+                }
+
                 #background {
                     path {
                         fill: #C6232F;
@@ -296,7 +300,6 @@ body {
 
     main {
         #projects {
-            overflow-x: scroll;
             display: grid;
             align-content: center;
             justify-items: center;

@@ -251,6 +251,11 @@ body header .en #english rect.st3 {
   fill: #D0252A;
 }
 
+body header .da #switcher #ball {
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
+}
+
 body header .da #switcher #background path {
   fill: #C6232F;
 }
@@ -268,7 +273,6 @@ body header .da #english rect.st3 {
 }
 
 body main #projects {
-  overflow-x: scroll;
   display: -ms-grid;
   display: grid;
   -ms-flex-line-pack: center;

@@ -21,7 +21,7 @@ async function fetchJOSN() {
 
     document.querySelector("#switch").innerHTML = mySVG;
 
-    if (window.innerWidth < 500) {
+    if (window.innerWidth < 510) {
         document.querySelector("#switch > svg").setAttribute("viewBox", "0 0 30 130");
     }
     document.querySelector("#switcher").addEventListener("click", toggleLanguage);
