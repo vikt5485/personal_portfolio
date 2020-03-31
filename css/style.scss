@@ -191,13 +191,6 @@ body {
             }
         }
 
-        #background_img {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-        }
-
         #switch {
             position: absolute;
             top: 30px;
@@ -509,6 +502,9 @@ body {
                 width: 100%;
                 margin-top: 30px;
                 transition: 0.1s all;
+                border-radius: 50%;
+                align-self: center;
+                border: 3px solid $nav_1;
 
                 @include desktop {
                     margin-top: 0;

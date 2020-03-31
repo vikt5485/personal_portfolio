@@ -173,13 +173,6 @@ body header nav a:hover {
   }
 }
 
-body header #background_img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-}
-
 body header #switch {
   position: absolute;
   top: 30px;
@@ -511,6 +504,11 @@ body main #about img {
   margin-top: 30px;
   -webkit-transition: 0.1s all;
   transition: 0.1s all;
+  border-radius: 50%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  border: 3px solid #02684C;
 }
 
 @media (min-width: 800px) {
