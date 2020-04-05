@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     scroll-behavior: smooth;
+    --vh: 1vh;
 }
 
 @font-face {
@@ -22,6 +23,7 @@
 $big: 1375px;
 $desktop: 800px;
 $tablet: 500px;
+$short: 700px;
 
 @mixin tablet {
     @media (min-width: #{$tablet}) {
@@ -37,6 +39,12 @@ $tablet: 500px;
 
 @mixin big {
     @media (min-width: #{$big}) {
+        @content;
+    }
+}
+
+@mixin short {
+    @media (max-height: #{$short}) {
         @content;
     }
 }
@@ -105,6 +113,7 @@ body {
 
     header {
         height: 100vh;
+        height: calc(var(--vh, 1vh) * 100);
         width: 100%;
         position: relative;
         top: 0;
@@ -187,6 +196,12 @@ body {
 
                 a {
                     font-size: 15rem;
+                }
+            }
+
+            @include short {
+                a {
+                    font-size: 10rem;
                 }
             }
         }
@@ -310,7 +325,7 @@ body {
 
             h1 {
                 position: absolute;
-                top: 0;
+                top: 30px;
                 left: 30px;
             }
 
@@ -405,7 +420,7 @@ body {
 
             .project_1 {
                 background: $baggrund_1;
-                margin-top: 75px;
+                margin-top: 105px;
 
                 .overlay {
                     .overlay_bg {
@@ -418,7 +433,7 @@ body {
                 background: $baggrund_2;
 
                 @include desktop {
-                    margin-top: 75px;
+                    margin-top: 105px;
                 }
 
                 .overlay {
@@ -613,6 +628,10 @@ body {
             }
         }
 
+        .project_content {
+            position: relative;
+        }
+
         .button:hover {
             transform: translateY(-3px);
             color: white;
@@ -627,15 +646,17 @@ body {
         .small {
             margin: 5px 0;
             font-size: 1.6rem;
-            position: absolute;
-            top: 150px;
-            writing-mode: vertical-rl;
-            transform: rotate(180deg);
-            margin-left: -27px;
             text-decoration: underline;
 
             @include tablet {
-                margin-left: -36px;
+                margin: 5px 0 0 -36px;
+                font-size: 1.6rem;
+                position: absolute;
+                top: 0;
+                left: 0;
+                writing-mode: vertical-rl;
+                transform: rotate(180deg);
+                text-decoration: underline;
             }
         }
 

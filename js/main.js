@@ -4,10 +4,14 @@ document.addEventListener("DOMContentLoaded", start);
 
 let language = localStorage.getItem('language');
 let content = [];
+let vh = window.innerHeight * 0.01;
+document.querySelector("body > header").style.setProperty('--vh', `${vh}px`);
+console.log(vh);
 
 function start() {
     fetchJOSN();
     checkLanguage();
+    window.addEventListener("resize", resizeWindow);
 }
 
 async function fetchJOSN() {
@@ -21,12 +25,25 @@ async function fetchJOSN() {
 
     document.querySelector("#switch").innerHTML = mySVG;
 
-    if (window.innerWidth < 510) {
+    if (window.innerWidth < 500) {
         document.querySelector("#switch > svg").setAttribute("viewBox", "0 0 30 130");
     }
+
     document.querySelector("#switcher").addEventListener("click", toggleLanguage);
 
     displayContent();
+}
+
+function resizeWindow() {
+    if (window.innerWidth < 500) {
+        document.querySelector("#switch > svg").setAttribute("viewBox", "0 0 30 130");
+    } else {
+        document.querySelector("#switch > svg").setAttribute("viewBox", "0 0 130 30");
+    }
+
+    vh = window.innerHeight * 0.01;
+    document.querySelector("body > header").style.setProperty('--vh', `${vh}px`);
+    console.log(vh);
 }
 
 function displayContent() {
@@ -55,6 +72,8 @@ function displayContent() {
         document.querySelector("#contact > h1").textContent = content[0].forside.contact[0];
         document.querySelector("#contact > span:nth-child(4)").innerHTML = content[0].forside.contact[1];
 
+        document.querySelector("#about_wrap > div > a").setAttribute("href", "assets/CV.pdf");
+
 
     } else if (localStorage.getItem('language') === 'en') {
         document.querySelector("header > a > div > p").textContent = content[0].forside.title_en;
@@ -78,6 +97,7 @@ function displayContent() {
         document.querySelector("#contact > h1").textContent = content[0].forside.contact_en[0];
         document.querySelector("#contact > span:nth-child(4)").innerHTML = content[0].forside.contact_en[1];
 
+        document.querySelector("#about_wrap > div > a").setAttribute("href", "assets/CV_en.pdf");
     }
 }
 

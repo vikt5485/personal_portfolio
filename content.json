@@ -4,21 +4,21 @@
         "links": ["projekter", "om mig", "kontakt"],
         "project_title": "Projekter",
         "about_title": "Hvem er jeg?",
-        "about": ["Som studerende på multimediedesigner uddannelsen, har jeg udviklet en passion for frontend desing og udvikling.", "Arbejdet med kundens/klientens krav og ønsker, udviklingen af brugervenlige løsninger, og tests på slutbrugeren, er dele af hvad jeg har lært på uddannelsen, men min klare ambition og passion ligger i kodning. Jeg elsker en clean code, at debugge konsol fejl og så elsker jeg at lære.", "Jeg har erfaring med:"],
+        "about": ["Som studerende på Multimediedesigner uddannelsen, har jeg fået en passion for frontend design og udvikling.", "At arbejde med klientens krav og ønsker, udviklingen af brugervenlige løsninger, og tests på slutbrugeren, er dele af hvad jeg har lært på uddannelsen, men min klare ambition og passion ligger i koden bag løsningen. Jeg elsker at lære, og at holde mig selv opdateret på de nyeste teknologier.", "Jeg har erfaring med:"],
         "contact": ["Kontakt", "Ring: <a href='tel:+4542446966'>+45 42 44 69 66</a> 📱"],
-        "link": "Se fuldt CV her",
+        "link": "Se CV her",
         "title_en": "multimedia designer | portfolio",
         "links_en": ["projects", "about", "contact"],
         "project_title_en": "Projects",
         "about_title_en": "Who am i?",
-        "about_en": ["Studying multimedia design at KEA, I've gained knowledge and a passion for frontend design and developing.", "Working with clients' needs and wants, developing user friendly solutions, and testing on the end user, are parts of what I’ve learned, but my true passion is in coding. I enjoy a clean code, to debug console errors, and I love learning.", "I have experience with:"],
+        "about_en": ["Studying multimedia design at KEA, I've gained knowledge and a passion for frontend design and developing.", "Working with clients' needs and wants, developing user friendly solutions, and testing on the end user, are parts of what I’ve learned, but my true passion and ambition is in the code behind the solution. I love learning and keeping myself updated, with the newest technologies.", "I have experience with:"],
         "contact_en": ["Contact", "Call: <a href='tel:+4542446966'>+45 42 44 69 66</a> 📱"],
-        "link_en": "See full CV here"
+        "link_en": "See CV here"
     },
     "lisa": {
         "type": "Gruppeprojekt",
         "short_desc": "Ny visuel identitet, hjemmeside og promoveringsvideo",
-        "long_desc": ["Lisa Fosmark er en dansk DJ, bosat i København, som vi har lavet en dynamisk hjemmeside, indhold til sociale medier samt en promoveringsvideo til.", "Til hjemmesiden var vores hovedfokus at det skulle være simpelt for kunden. Vi brugte WordPress REST API til at hente data, som vores klient selv tastede ind (spilledatoer), og viste så indholdet i vores brugergrænseflade, som vi byggede med HTML, CSS og JavaScript. Vi brugte JavaScript array metoder til at sortere, fjerne duplikanter, og vise datoerne i den korrekte rækkefølge, ligemeget om de blev tilføjet i den korrekte rækkefølge. På den måde har vi gjort det super enkelt for vores klient at taste datoer ind ved hjælp af WordPress, og resten tager vores kode sig af. Vi byggede og en kontaktformular i PHP."],
+        "long_desc": ["Lisa Fosmark er en dansk DJ, bosat i København, som vi har lavet en dynamisk hjemmeside, indhold til sociale medier samt en promoveringsvideo til.", "Til hjemmesiden var vores hovedfokus at det skulle være simpelt for kunden. Vi brugte WordPress REST API til at hente data, som vores klient selv tastede ind (spilledatoer), og viste så indholdet i vores brugergrænseflade, som vi byggede med HTML, CSS og JavaScript. Vi brugte JavaScript array metoder til at sortere, fjerne duplikater, og vise datoerne i den korrekte rækkefølge, lige meget om de blev tilføjet i den korrekte rækkefølge. På den måde har vi gjort det super enkelt for vores klient at taste datoer ind ved hjælp af WordPress, og resten tager vores kode sig af. Vi byggede også en kontaktformular i PHP."],
         "cta": "Besøg hjemmeside her",
         "type_en": "Group project",
         "short_desc_en": "New visual identity, website, & promo video",
@@ -30,11 +30,11 @@
     "koga": {
         "type": "Gruppeprojekt",
         "short_desc": "Redesign af hjemmeside ved hjælp af dynamisk indhold",
-        "long_desc": ["Kogacenter København er en lokal cykel butik på Frederiksberg, som specialiserer sig i KOGA cykler. Vores opgave var, at bygge en ny hjemmeside for vores klient, og gøre det så nemt som muligt for klientet, at tilføjge nye cykler til siden.", "Vi arbejdede med WordPress som vores backend, for at vores klient nemt og hurtigt kunne tilføje nye cykler, og detaljer til eksisterende cykler. Vi trak dataen via WP REST API, og viste det i vores frontend, bygget med HTML, CSS og JavaScript. Ved hjælp af udelukkende vanilla JavaScript, vi tjekker om klienten har sat en cykel på tilbud, eller om ham vil have cyklen vist på forsiden, som en “udvalgt cykel”."],
+        "long_desc": ["Kogacenter København er en lokal cykel butik på Frederiksberg, som specialiserer sig i KOGA cykler. Vores opgave var, at bygge en ny hjemmeside for vores klient, og gøre det så nemt som muligt for klienten, at tilføje nye cykler til siden.", "Vi arbejdede med WordPress som vores backend, for at vores klient nemt og hurtigt kunne tilføje nye cykler, og detaljer til eksisterende cykler. Vi trak dataene via WP REST API, og viste det i vores frontend, bygget med HTML, CSS og JavaScript. Ved hjælp af udelukkende vanilla JavaScript, tjekker vi om klienten har sat en cykel på tilbud, eller om han vil have cyklen vist på forsiden, som en “udvalgt cykel”."],
         "cta": "Besøg hjemmeside her",
         "type_en": "Group project",
         "short_desc_en": "Redesigned website working with dynamic content",
-        "long_desc_en": ["Kogacenter København is a local bike-shop in Copenhagen, which specializes in KOGA bikes. Our case was to build a new website for the client, and make it as easy as possible for the client to add new bikes.", "Working with WordPress as our backend, our client could easily add all details about new bikes, and we managed to pull the data via WP REST API, and display it in our own frontend, built with HTML, CSS and JavaScript. Using vanilla JavaScript, we detect if our client put a bike on sale, or wants to display it on the front page, as a “featured bike”."],
+        "long_desc_en": ["Kogacenter København is a local bike-shop in Copenhagen, which specializes in KOGA bikes. Our case was to build a new website for the client and make it as easy as possible for the client to add new bikes.", "Working with WordPress as our backend, our client could easily add all details about new bikes, and we managed to pull the data via WP REST API, and display it in our own frontend, built with HTML, CSS and JavaScript. Using vanilla JavaScript, we detect if our client put a bike on sale, or wants to display it on the front page, as a “featured bike”."],
         "cta_en": "Visit website here",
         "responsibility": ["Ansvarsområder", "HTML, CSS og JavaScript", "Opsætning af backend"],
         "responsibility_en": ["Responsibilities", "HTML, CSS, and JavaScript", "Setup of backend"]
@@ -42,7 +42,7 @@
     "plastic": {
         "type": "Individuelt projekt",
         "short_desc": "Simpelt JavaScript klik spil",
-        "long_desc": ["Plastik Helvede er et simpelt klik spil, hvor målet er at samle plastik ud af havet, i stedet for fisk. Alle grafikker har jeg selv lavet i Adobe Illustrator.", "Dette var min første introduktion til JavaScript, og hvordan det kan bruges i webudvikling. Jeg lærte hvad variabler, eventhandlers og funktioner er, og jeg har siden da udviklet mine JavaScript færdigheder, i retning af at kunne bruge det, til en mere klient-baseret opgave (se de to projekter til venstre)"],
+        "long_desc": ["Plastik Helvede er et simpelt klik spil, hvor målet er at samle plastik ud af havet, i stedet for fisk. Alle grafikker har jeg selv lavet i Adobe Illustrator.", "Dette var min første introduktion til JavaScript, og hvordan det kan bruges i webudvikling. Jeg lærte hvad variabler, eventhandlers og funktioner er, og jeg har siden da udviklet mine JavaScript færdigheder i retning af, at kunne bruge det til en mere klient-baseret opgave"],
         "cta": "Spil spillet",
         "type_en": "Individual project",
         "short_desc_en": "Simple JavaScript click game",
@@ -52,11 +52,11 @@
     "colorpalette": {
         "type": "Individuelt projekt",
         "short_desc": "Klon af Adobe Color",
-        "long_desc": ["Ved hjælp af udelukkende vanilla JavaScript, skulle vi udforme en klon af Adobe's kendte design værktøj, Adobe Color. Brugeren vælger en basis farve, den midterste, og så bliver de 4 andre kasser fyldt ud, alt efter hvilken farvesammensætning der er valgt.", "Dette var et udfordrende projekt, da der er mange funktioner i luften på samme tid, som alle returnerer en bid af hvad der skal bruges til det færdige resultat. For eksempel bliver alle farvekoderne udregnet, og reformatteret til RGB og HSL, hver gang brugeren opdaterer basis farven."],
+        "long_desc": ["Dette er et lille JavaScript projekt jeg lavede på 3. semester af multimediedesign, hvor målet var at lave en klon af Adobe's kendte design værktøj, Adobe Color. Brugeren vælger en basis farve, den midterste, og så bliver de 4 andre kasser fyldt ud, alt efter hvilken farvesammensætning der er valgt.", "Dette var et udfordrende projekt, da der er mange funktioner i luften på samme tid, som alle returnerer en bid af hvad der skal bruges til det færdige resultat. For eksempel bliver alle farvekoderne udregnet, og formateret til RGB og HSL, hver gang brugeren opdaterer basis farven."],
         "cta": "Prøv værktøjet*",
         "type_en": "Individual project",
         "short_desc_en": "Clone of Adobe Color",
-        "long_desc_en": ["With only vanilla JavaScript, we had to create our own clone of Adobe's famous design tool, Adobe Color. The user chooses the base color, the middle one, and the rest of the boxes will then be filled, based on which color harmony is chosen.", "This was a challenging project, because there is a lot of functions, that each return different stuff for the end result. For example are each of the color codes calculated, and reformatted to RGB and HSL, each time the user updates the base color."],
+        "long_desc_en": ["This is a small JavaScript project i did on 3. semester of Multimedia Design, where the goal was to create a clone of Adobe's famous design tool, Adobe Color. The user chooses the base color, the middle one, and the rest of the boxes will then be filled, based on which color harmony is chosen.", "This was a challenging project, because there is a lot of functions, that each return different stuff for the end result. For example, each of the color codes are calculated, and formatted to RGB and HSL, each time the user updates the base color."],
         "cta_en": "Try the tool*",
         "disclaimer": "*Ikke responsivt til mobil",
         "disclaimer_en": "*Not responsive for mobile"
